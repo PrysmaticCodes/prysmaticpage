@@ -165,29 +165,87 @@ header a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2%;
 }
+
 .informacoes{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .rodape .informacoes .contato{
-    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+.rodape .informacoes .contato .localidade{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+.rodape .informacoes .contato .localidade img{
+    width: 35px;
+    height: 35px;
+}
+.rodape .informacoes .contato .telefone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+.rodape .informacoes .contato .telefone img{
+    width: 35px;
+    height: 35px;
+}
+.rodape .informacoes .contato .email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+.rodape .informacoes .contato .email img{
+    width: 35px;
+    height: 35px;
 }
 .rodape .informacoes .localizacao{
     width: 300px;
     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rodape .informacoes .localizacao iframe{
-    width:100%; 
-    height:100%;
+    width:80%; 
+    height:80%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .rodape .informacoes .enviaremail{
-    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
-
+.rodape .informacoes .enviaremail .ipt{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.rodape .informacoes .enviaremail .ipt .ipt_email{
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+.rodape .informacoes .enviaremail .ipt .btn_email{
+    background-color: #171414;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}

@@ -8,11 +8,11 @@
 </head>
 <body>
     <header id="inicio">
-            <img src="./img/logo.svg" alt="">
+            <a href="#inicio"><img src="./img/logo.svg" alt=""></a>
             <div class="nav">
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
+                <a href="#inicio">Home</a>
+                <a href="#s2">Sobre</a>
+                <a href="#rdp">Contato</a>
             </div>    
     </header>
     <section class="sct1" id="s1">
@@ -52,19 +52,28 @@
         <h1>Mais informações</h1>
         <div class="informacoes">
             <div class="contato">
-                <p>Rua das casinhas, 157</p>
-                <p>(11) 97070-7070</p>
-                <p>prysmatic.code@gmail.com</p>
+                <div class="localidade">
+                    <img src="./img/icon_locale.png"><p>Rua das casinhas, 157</p>
+                </div>
+                <div class="telefone">
+                    <img src="./img/icon_telephone.png">
+                    <p>(11) 97070-7070</p>
+                </div>
+                <div class="email">
+                    <img src="./img/icon_email.png">
+                    <p>prysmatic.code@gmail.com</p>
+                </div>
+            </div>
+            <div class="enviaremail">
+                <h3>Nos envie seu email para entrarmos em contato</h3>
+                <div class="ipt">
+                   <input class="ipt_email" type="text" placeholder="Digite seu email">
+                   <button class="btn_email"><img src="./img/icon_send.png"></button>
+                </div>
             </div>
             <div class="localizacao">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.324773027795!2d-46.73036142467097!3d-23.520818578827694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1724006955157!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="enviaremail">
-                <h1>Nos envie seu email<br> que entraremos em contato</h1>
-                <div class="ipt">
-                    <input type="text">
                 </div>
-            </div>
         </div>
     </footer>
 <script src="main.js"></script>   
