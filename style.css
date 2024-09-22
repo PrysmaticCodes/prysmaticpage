@@ -27,8 +27,8 @@ body{
     left: 97%;
     z-index: 999999;
     top: 90%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(19, 18, 18);
     display: flex;
@@ -48,26 +48,27 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
     z-index: 100;
 }
+
 header img{
-    width: 100px;
-    height: 100px;
+    border: ;
+    width: 80px;
+    height: 80px;
 }
 .nav{
     width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    border: ;
 }
 header a{
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 5%;
     opacity: 0.7;
-    font-size: 20px;
+    font-size: 1em; 
     font-weight: 400;
 }
 header a:hover{
@@ -78,6 +79,7 @@ header a:hover{
 /*Inicio Section 1*/
 .sct1{
     width: 100%;
+    height: 100vh;
     position: relative;
     display: inline-block;
     border-bottom: solid 2px #34b369;
@@ -87,7 +89,7 @@ header a:hover{
     display: block;
     z-index: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     filter: blur(5px);
     background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
 }
@@ -105,8 +107,8 @@ header a:hover{
     text-align: center;
 }
 .txtapresentativo1 .txt1{
-    font-weight: 600    ;
-    font-size: 100px;
+    font-weight: 600;
+    font-size: 5em;
     color:white;
     animation: appear 3s;
 }
@@ -120,8 +122,6 @@ header a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
     overflow: hidden;
 }
 .sct2 .sobre{
@@ -130,154 +130,160 @@ header a:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 4%;
     gap: 10%;
-    animation: appear 1s;
-    animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+    border: ;
 }
+
 .sct2 .sobre .txtapresentativo2{
-    width: 850px;
+    width: 70%;
+    height: 100%;
     border-top: 2px solid white;
-    padding-top: 20px;    
+    padding-top: 2%;   
+    font-size: 1em; 
 }
 .valores{
     width: 90%;
+    height: 55%;
     display: grid;
     justify-items:center;
     grid-gap: 5%;
     grid-template-columns: repeat(3, 1fr);
-    animation: appear 0.5s;
-    animation-timeline: view();
-    animation-range: cover 0% cover 35%;
+    border:;
+    margin-top: 5%;
 }
 .valores .missao{
     margin-top: 4%;
     border: 2px solid #34b369;
     border-radius: 20px;
     width: 100%;
-    height: 450px;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 15%;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 1em;
 }
 .valores .visao{
     border: 2px solid #34b369;
     border-radius: 20px;
     width: 100%;
-    height: 450px;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 15%;
+    padding-left: 5%;   
+    padding-top: 5%;
+    font-size: 1em;
 }
 .valores .valores1{
     margin-top: 4%;
     border: 2px solid #34b369;
     border-radius: 20px;
     width: 100%;
-    height: 450px;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 20px;
+    gap: 15%;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 1em;
 }
 /* Fim Section 2*/
 
 /*Rodape*/
 .rodape{
     width: 100%;
-    height: 300px;
     border-top: 2px solid #34b369;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    border:;
 }
 
 .rodape .informacoes{
-   width: 95%;
+   width: 90%;
+   height: 30vh;
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-between;  
 }
 
 .rodape .informacoes .contato{
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    border: ;
+    justify-content: space-around;
+    height: 80%;
 }
 
 .rodape .informacoes .contato .localidade{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: large;
+    gap: 2%;
+    font-size: 1em;
 }
 .rodape .informacoes .contato .localidade img{
-    width: 35px;
-    height: 35px;
+    width: 2em;
+    height: 2em;
 }
 .rodape .informacoes .contato .telefone{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: large;
+    gap: 2%;
+    font-size: 1em;
 }
 .rodape .informacoes .contato .telefone img{
-    width: 35px;
-    height: 35px;
+    width: 2em;
+    height: 2em;
 }
 .rodape .informacoes .contato .email{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: large;
+    gap: 2%;
+    font-size: 1em;
 }
 .rodape .informacoes .contato .email img{
-    width: 35px;
-    height: 35px;
+    width: 2em;
+    height: 2em;
 }
 .rodape .informacoes .localizacao{
-    width: 300px;
-    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80%;
+    border: ;
 }
 .rodape .informacoes .localizacao iframe{
-    width:80%; 
-    height:80%;
+    width: 95%;
+    height: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .rodape .informacoes .enviaremail{
+    height: 80%;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    justify-content: center;
 }
 .rodape .informacoes .enviaremail h3{
-    padding-left: 8%;
+    font-size: 1em;
 }
 .rodape .informacoes .enviaremail .ipt{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 5px;
 }
 .rodape .informacoes .enviaremail .ipt .ipt_email{
     border: none;
     outline: 0;
     border-radius: 8px;
-    width: 200px;
-    height: 30px;
 }
 .rodape .informacoes .enviaremail .ipt .btn_email{
     background-color: #171414;
@@ -286,543 +292,240 @@ header a:hover{
     cursor: pointer;
 }
 
-/*responsividade*/
-@media screen and (min-width:0px) and (max-width:600px){
-    /*responsividade header*/
-    header{
-        height: 80px;
-    }
-    header img{
-        width: 60px;
-        height: 60px;
-    }
-    header a{
-        padding: 15px;
-        font-size: 16px;
-    }
-    /*botao home*/
+/* Responsividade */
+
+@media screen and (min-width:320px) and (max-width:670px) {
     .buttonHome{
-        left: 90%;
-        width: 30px;
-        height: 30px;
+        display: none;
     }
-
-    /*responsividade sect1*/
-    .imgsct1{
-        display: block;
-        z-index: 0;
-        width: 100%;
-        height: 100vh;
-    }
-
+    /*sect1*/
     .txtapresentativo1 .txt1{
-        font-size: 37px;
-        font-weight:700;
+        font-weight: 600;
+        font-size: 1.8em;
     }
-    
-    /*responsividade sect2*/
-    .sct2{
-        width: 100%;
-        height: 100vh;
-        gap: 20px;
-    }
-
+    /*sect2*/
     .sct2 .sobre{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        gap: 10%;
+        flex-direction: column;  
+        margin-top: 3%;
+        gap: 1%;
+        height: 20%;
     }
-    .sct2 .sobre h1{
-        font-size: 15px;
+    .sobre h1{
+        font-size: 0.7em; 
     }
     .sct2 .sobre .txtapresentativo2{
-        font-size: 10px;
-        font-weight:300;
+        font-size: 0.5em;
+        overflow-x: hidden; 
+        overflow-y: scroll;
         width: 100%;
     }
     .valores{
-        width: 90%;
         display: flex;
         flex-direction: column;
+        height: 74%;
+        gap: 2%;
     }
     .valores .missao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
+        font-size: 0.5em;
+        padding-left: 3%;
+        padding-top: 3%;
+        margin-top: 0;
     }
     .valores .visao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
+        font-size: 0.5em;
+        padding-left: 3%;
+        padding-top: 3%;
+        
     }
     .valores .valores1{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
+        font-size: 0.5em;
+        padding-left: 3%;
+        padding-top: 3%;
+        margin-top: 0;
     }
-    /*responsividade footer*/
+    /*footer*/
     .rodape{
-        width: 100%;
-        height: 380px;
+        height: 55vh;
     }
     .rodape .informacoes{
-        width: 90%;
-        height: 90%;
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        gap: 15px;
+        height: 90%;
     }
     .rodape .informacoes .contato{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
+        height: 40%;
+        width: 70%;
     }
     .rodape .informacoes .contato .localidade{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
-    }
+        gap: 1%;
+        font-size: 0.7em;
+    }    
     .rodape .informacoes .contato .localidade img{
-        width: 22px;
-        height: 22px;
+        width: 1.5em;
+        height: 1.5em;
     }
     .rodape .informacoes .contato .telefone{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
+        gap: 1%;
+        font-size: 0.7em;
     }
     .rodape .informacoes .contato .telefone img{
-        width: 22px;
-        height: 22px;
+        width: 1.5em;
+        height: 1.5em;
     }
     .rodape .informacoes .contato .email{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
+        gap: 1%;
+        font-size: 0.7em
     }
     .rodape .informacoes .contato .email img{
-        width: 22px;
-        height: 22px;
-    }
-    .rodape .informacoes .enviaremail{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    .rodape .informacoes .enviaremail h3{
-        padding-left: 18%;
-        font-size: 15px;
-        font-weight:400;
-    }
-    .rodape .informacoes .enviaremail .ipt .ipt_email{
-        border: none;
-        outline: 0;
-        border-radius: 8px;
-        width: 225px;
-        height: 30px;
+        width: 1.5em;
+        height: 1.5em;
     }
     .rodape .informacoes .localizacao{
-        width: 250px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 40%;
+        width: 70%;
     }
     .rodape .informacoes .localizacao iframe{
-        width:100%; 
-        height:100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
+    .rodape .informacoes .enviaremail{
+        height: 40%;
+        width: 70%;
+    }
+    .rodape .informacoes .enviaremail .ipt{
+        justify-content:left;
+      }
+    .rodape .informacoes .enviaremail h3{
+        font-size: 0.7em;
+    } 
+    .rodape .informacoes .enviaremail .ipt .btn_email img{
+        width: 1.5em;
+        height: 1.5em;   
+    }   
 }
 
-@media screen and (min-width:600px) and (max-width:1000px){
-     /*responsividade header*/
-     header{
-        height: 80px;
-    }
-    header img{
-        width: 75px;
-        height: 75px;
-    }
-    header a{
-        padding: 15px;
-        font-size: 20px;
-    }
-
-    /*botao home*/
+@media screen and (min-width: 671px) and (max-width:1000px){
     .buttonHome{
         left: 95%;
-        width: 30px;
-        height: 30px;
     }
-    /*responsividade sect1*/
-    .imgsct1{
-        display: block;
-        z-index: 0;
-        width: 100%;
-        height: 100vh;
-    }
-    
+    /*sect1*/
     .txtapresentativo1 .txt1{
-        font-size: 45px;
-        font-weight:700;
+        font-weight: 600;
+        font-size: 3em;
     }
-     /*responsividade sect2*/
-     .sct2{
-        width: 100%;
-        height: 100vh;
-        gap: 20px;
-    }
-
+     /*sect2*/
     .sct2 .sobre{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 5%;
-        gap: 10%;
+        flex-direction: column;  
+        margin-top: 3%;
+        gap: 1%;
+        height: 20%;
     }
-    .sct2 .sobre h1{
-        font-size: 15px;
+    .sobre h1{
+        font-size: 1em; 
     }
     .sct2 .sobre .txtapresentativo2{
-        font-size: 11px;
-        font-weight:300;
+        font-size: 0.8em;
+        overflow-x: hidden; 
+        overflow-y: scroll;
         width: 100%;
     }
     .valores{
-        width: 90%;
         display: flex;
         flex-direction: column;
+        height: 70%;
+        gap: 2%;
     }
     .valores .missao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 10px;
+        font-size: 0.8em;
+        padding-left: 3%;
+        padding-top: 3%;
+        margin-top: 0;
     }
     .valores .visao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 10px;
+        font-size: 0.8em;
+        padding-left: 3%;
+        padding-top: 3%;
+        
     }
-    .valores .valores1{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 10px;
+    .valores .valores1{ 
+        font-size: 0.8em;
+        padding-left: 3%;
+        padding-top: 3%;
+        margin-top: 0;
     }
-    /*responsividade footer*/
-    .rodape{
-        width: 100%;
-        height: 180px;
-    }
+     /*footer*/
     .rodape .informacoes{
-        height: 100%;
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: space-around;
-        gap: 10px;
     }
     .rodape .informacoes .contato{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
+        height: 40%;
+        width: 40%;
     }
     .rodape .informacoes .contato .localidade{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
-    }
+        gap: 1%;
+        font-size: 1em;
+    }    
     .rodape .informacoes .contato .localidade img{
-        width: 22px;
-        height: 22px;
+        width: 2em;
+        height: 2em;
     }
     .rodape .informacoes .contato .telefone{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
+        gap: 1%;
+        font-size: 1em;
     }
     .rodape .informacoes .contato .telefone img{
-        width: 22px;
-        height: 22px;
+        width: 2em;
+        height: 2em;
     }
     .rodape .informacoes .contato .email{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
+        gap: 1%;
+        font-size: 1em
     }
     .rodape .informacoes .contato .email img{
-        width: 22px;
-        height: 22px;
-    }
-    .rodape .informacoes .enviaremail{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    .rodape .informacoes .enviaremail h3{
-        padding-left: 7%;
-        font-size: 15px;
-        font-weight:400;
-    }
-    .rodape .informacoes .enviaremail .ipt .ipt_email{
-        border: none;
-        outline: 0;
-        border-radius: 8px;
-        width: 150px;
-        height: 30px;
+        width: 2em;
+        height: 2em;
     }
     .rodape .informacoes .localizacao{
-        width: 200px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        height: 40%;
+        width: 30%;
     }
     .rodape .informacoes .localizacao iframe{
-        width:100%; 
-        height:100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
+    .rodape .informacoes .enviaremail{
+        height: ;
+        width: ;
+    }
+    .rodape .informacoes .enviaremail h3{
+        font-size: 0.8em;
+    } 
+    .rodape .informacoes .enviaremail .ipt .btn_email img{
+        width: 1.8em;
+        height: 1.8em;   
+    }  
 }
-@media screen and (min-width:1000px) and (max-width:1370px){
-      /*responsividade header*/
-      header{
-        height: 80px;
-    }
-    header img{
-        width: 80px;
-        height: 80px;
-    }
-    header a{
-        padding: 15px;
-        font-size: 20px;
-    }
 
-    /*botao home*/
+@media screen and (min-width:1001px) and (max-width:1354px){
     .buttonHome{
         left: 96%;
-        width: 30px;
-        height: 30px;
     }
-    /*responsividade sect1*/
-    .imgsct1{
-        display: block;
-        z-index: 0;
-        width: 100%;
-        height: 100vh;
-    }
-    
     .txtapresentativo1 .txt1{
-        font-size: 48px;
-        font-weight:700;
+        font-weight: 600;
+        font-size: 4em;
     }
-     /*responsividade sect2*/
-     .sct2{
-        width: 100%;
-        height: 100vh;
-        gap: 15px;
-    }
-
-    .sct2 .sobre{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 2%;
-        gap: 5%;
-    }
-    .sct2 .sobre h1{
-        font-size: 18px;
+    .sobre h1{
+        font-size: 1.5em; 
     }
     .sct2 .sobre .txtapresentativo2{
-        font-size: 11px;
-        font-weight:300;
-        width: 100%;
-    }
-    .valores{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-    }
+        font-size: 0.8em;
+    }    
     .valores .missao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
-    }
+        font-size: 0.8em;
+    }    
     .valores .visao{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
+        font-size: 0.8em;
     }
-    .valores .valores1{
-        margin-top: 4%;
-        border: 1px solid #34b369;
-        border-radius: 20px;
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        padding: 10px;
-        font-size: 11px;
-    }
-    /*responsividade footer*/
-    .rodape{
-        width: 100%;
-        height: 180px;
-    }
-    .rodape .informacoes{
-        height: 100%;
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        gap: 10px;
-    }
-    .rodape .informacoes .contato{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    .rodape .informacoes .contato .localidade{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
-    }
-    .rodape .informacoes .contato .localidade img{
-        width: 22px;
-        height: 22px;
-    }
-    .rodape .informacoes .contato .telefone{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
-    }
-    .rodape .informacoes .contato .telefone img{
-        width: 22px;
-        height: 22px;
-    }
-    .rodape .informacoes .contato .email{
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        font-size: 12px;
-    }
-    .rodape .informacoes .contato .email img{
-        width: 22px;
-        height: 22px;
-    }
-    .rodape .informacoes .enviaremail{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    .rodape .informacoes .enviaremail h3{
-        padding-left: 7%;
-        font-size: 15px;
-        font-weight:400;
-    }
-    .rodape .informacoes .enviaremail .ipt .ipt_email{
-        border: none;
-        outline: 0;
-        border-radius: 8px;
-        width: 150px;
-        height: 30px;
-    }
-    .rodape .informacoes .localizacao{
-        width: 200px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .rodape .informacoes .localizacao iframe{
-        width:100%; 
-        height:100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    .valores .valores1{ 
+        font-size: 0.8em;
+    }    
 }
