@@ -217,9 +217,9 @@ header a:hover{
 .rodape .informacoes .contato{
     display: flex;
     flex-direction: column;
-    border: ;
     justify-content: space-around;
     height: 80%;
+    width: 50%;
 }
 
 .rodape .informacoes .contato .localidade{
@@ -257,7 +257,7 @@ header a:hover{
     align-items: center;
     justify-content: center;
     height: 80%;
-    border: ;
+    width: 50%;
 }
 .rodape .informacoes .localizacao iframe{
     width: 95%;
@@ -268,12 +268,15 @@ header a:hover{
 }
 .rodape .informacoes .enviaremail{
     height: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: end;
 }
 .rodape .informacoes .enviaremail h3{
     font-size: 1em;
+    padding-right: 8.3%;
 }
 .rodape .informacoes .enviaremail .ipt{
   display: flex;
@@ -390,12 +393,14 @@ header a:hover{
     .rodape .informacoes .enviaremail{
         height: 40%;
         width: 70%;
+        align-items: flex-start;
     }
     .rodape .informacoes .enviaremail .ipt{
         justify-content:left;
-      }
+    }
     .rodape .informacoes .enviaremail h3{
         font-size: 0.7em;
+        padding-left: 2%;
     } 
     .rodape .informacoes .enviaremail .ipt .btn_email img{
         width: 1.5em;
@@ -493,11 +498,12 @@ header a:hover{
         height: 100%;
     }
     .rodape .informacoes .enviaremail{
-        height: ;
-        width: ;
+        height: 40%;
+        width: 40%;
     }
     .rodape .informacoes .enviaremail h3{
         font-size: 0.8em;
+        padding-right: 15%;
     } 
     .rodape .informacoes .enviaremail .ipt .btn_email img{
         width: 1.8em;
